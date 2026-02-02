@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P1 Fitness | Best Gym in Raipur</title>
+  <meta name="description"
+    content="Join P1 Fitness, Raipur's premier gym. State-of-the-art equipment, expert trainers, and dynamic classes like Zumba & CrossFit. Start your transformation today!">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav>
+        <div class="logo">P1<span>FITNESS</span></div>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#why">THE VIBE</a></li>
+          <li><a href="#pricing">PLANS</a></li>
+          <li><a href="#contact" class="btn-neon">JOIN NOW</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <!-- Using the new Dark Neon Muscle Image -->
+      <img src="/assets/images/hero-new.png" alt="Beast Mode">
+    </div>
+    <div class="hero-content container">
+      <span class="hero-tag">RAIPUR'S ELITE FITNESS HUB</span>
+      <h1><span class="stroke">UNLEASH</span><br><span class="filled">YOUR POTENTIAL</span></h1>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-neon">START FREE TRIAL</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-section">
+    <div class="marquee-content">
+      <div class="marquee-item">CROSSFIT // STRENGTH // CARDIO // ZUMBA // YOGA // HIIT //</div>
+      <div class="marquee-item">CROSSFIT // STRENGTH // CARDIO // ZUMBA // YOGA // HIIT //</div>
+      <div class="marquee-item">CROSSFIT // STRENGTH // CARDIO // ZUMBA // YOGA // HIIT //</div>
+    </div>
+  </div>
+
+  <!-- Showcase / Visuals -->
+  <section id="why" class="showcase container">
+    <div class="showcase-grid">
+      <div class="showcase-img">
+        <!-- Using the new Abstract Gym Interior -->
+        <img src="/assets/images/bg-abstract.png" alt="Futuristic Gym">
+      </div>
+      <div class="showcase-text">
+        <h2>DESIGNED FOR <span style="color:var(--neon-gold)">ELITE PERFORMANCE</span></h2>
+        <ul class="feature-list">
+          <li>Cyberpunk-inspired Aesthetics</li>
+          <li>State-of-the-art Biomechanics Machinery</li>
+          <li>Neon-lit Cardio Zones</li>
+          <li>Professional Coaching Staff</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing 3D -->
+  <section id="pricing" class="membership">
+    <div class="container">
+      <h2 style="font-family: var(--font-heading); font-size: 50px; margin-bottom: 50px;">MEMBERSHIP <span
+          style="color:var(--neon-gold)">TIERS</span></h2>
+      <div class="pricing-cards">
+        <!-- Card 1 -->
+        <div class="card glass-panel">
+          <h3>STANDARD</h3>
+          <div class="price">₹1500<span>/mo</span></div>
+          <ul class="feature-list" style="padding:0;">
+            <li>Gym Access</li>
+            <li>Locker Room</li>
+            <li>General Guidance</li>
+          </ul>
+        </div>
+        <!-- Card 2 -->
+        <div class="card glass-panel" style="border-color: var(--neon-gold); transform: scale(1.05);">
+          <div
+            style="background:var(--neon-gold); color:black; display:inline-block; padding: 5px 10px; font-weight:bold; margin-bottom:15px;">
+            MOST POPULAR</div>
+          <h3>PREMIUM</h3>
+          <div class="price">₹4000<span>/3mo</span></div>
+          <ul class="feature-list" style="padding:0;">
+            <li>All Standard Features</li>
+            <li>Group Classes (Zumba/HIIT)</li>
+            <li>Diet Consultation Plan</li>
+          </ul>
+        </div>
+        <!-- Card 3 -->
+        <div class="card glass-panel">
+          <h3>ELITE</h3>
+          <div class="price">₹7500<span>/6mo</span></div>
+          <ul class="feature-list" style="padding:0;">
+            <li>All Premium Features</li>
+            <li>Personal Training (6 Sessions)</li>
+            <li>Steam & Sauna Access</li>
+            <li>Guest Passes</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lead Gen Form -->
+  <section id="contact" class="lead-gen-section">
+    <div class="container">
+      <div class="form-wrapper glass-panel">
+        <h2>CLAIM YOUR FREE PASS</h2>
+        <p>Limited slots available for this month. Don't wait.</p>
+        <form id="leadForm">
+          <div class="input-group">
+            <input type="text" placeholder="FULL NAME" required>
+          </div>
+          <div class="input-group">
+            <input type="tel" placeholder="PHONE NUMBER" required>
+          </div>
+          <div class="input-group">
+            <select>
+              <option>GOAL: MUSCLE GAIN</option>
+              <option>GOAL: FAT LOSS</option>
+              <option>GOAL: GENERAL FITNESS</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-neon" style="width:100%">SUBMIT DETAILS</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer style="padding: 40px; text-align:center; border-top: 1px solid #333; margin-top: 50px;">
+    <p style="color:#666; font-size: 14px;">&copy; 2026 P1 FITNESS RAIPUR. DESIGNED TO DOMINATE.</p>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
